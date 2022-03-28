@@ -39,10 +39,10 @@ public class E04StringType {
 		/*
 		문자열 + 정수: 우선순위가 없다면 일반적으로 문자열로 출력된다. 
 			단, 산술연산의 결과를 출력하고 싶다면 아래와 같이 소괄호로 
-			묶어 우선순위에 `대한 변화를 주면된다. 
+			묶어 우선순위에 대한 변화를 주면된다. 
 		 */
 		int kor=100, eng=99, math=98;
-		System.out.println("총점:"+kor+eng+math);
+		System.out.println("총점:"+kor+eng+math); //"100"+"99"+"98"=1009998
 		System.out.println("총점:"+(kor+eng+math));
 
 	}

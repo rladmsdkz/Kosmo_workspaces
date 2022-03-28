@@ -27,7 +27,7 @@ public class E01If03 {
 		//평균값은 소수점이 나올 수 있으므로 실수형으로 선언
 		double avg = (kor+eng+math) / 3.0; //double형의 결과를 얻기위해 3.0으로 나눔. 
 		//계산된 결과 그대로 출력
-		System.out.println("평균점수는(그대로)"+avg);
+		System.out.println("평균점수는(그대로):"+avg);
 		//서식문자를 이용해서 소수점 2자리까지 출력
 		System.out.printf("평균점수는(소수2자리):%.2f\n", avg);
 		

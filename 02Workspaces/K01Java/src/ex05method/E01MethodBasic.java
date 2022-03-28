@@ -39,7 +39,7 @@ public class E01MethodBasic {
 	메서드 정의3: 반환형 x, 매개변수 o 형태로 정의 
 		=> 반환값이 없는 경우에는 실행이 종료되면 호출했던 지점으로 
 		실행의 흐름이 이동한다. 
-		매개변수로 전달된 이름을 단순히 출력한다. ㅑ
+		매개변수로 전달된 이름을 단순히 출력한다. 
 	 */
 	public static void namePrint(String n) {
 		System.out.println("제 이름은 "+ n +" 입니다");
